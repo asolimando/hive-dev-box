@@ -40,4 +40,3 @@ else
     echo "non-interactive shell detected; waiting for the end of the world... "
     while :; do sleep 60;done
 fi
-
