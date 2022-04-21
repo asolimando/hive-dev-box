@@ -58,7 +58,7 @@ RUN_OPTS+=" --network $NET"
 RUN_OPTS+=" --shm-size 2g"
 #RUN_OPTS+=" --security-opt seccomp=unconfined"
 RUN_OPTS+=" --security-opt seccomp=seccomp.json"
-RUN_OPTS+=" -p 5006:5005"
+RUN_OPTS+=" -P"
 
 
 HDB_TYPE=${HDB_TYPE:-hive}

@@ -39,6 +39,7 @@ ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US:en
 ENV LC_ALL en_US.UTF-8
 
+EXPOSE 5005
+
 COPY tools/docker_entrypoint /.entrypoint
 ENTRYPOINT ["/.entrypoint"]
-
